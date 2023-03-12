@@ -1,0 +1,185 @@
+.section-bye, .section-nervous {
+    min-height: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bittersweet);
+    color: var(--off-white);
+}
+.content {
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.playg-title {
+    font-family: 'Neco', sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    text-shadow: 2px 2px 0 var(--purplegray), 3px 3px 0 var(--purplegray), 4px 4px 0 var(--purplegray), 5px 5px 0 var(--purplegray), 6px 6px 0 var(--purplegray), 7px 7px 0 var(--purplegray);  
+}
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+.fact { 
+    color: var(--black);
+    min-height: 160px;
+    word-break: break-word;
+}
+.random-gen {
+    color: var(--black);
+    font-size: 10px;
+}
+
+/* NERVOUS MSG */
+.section-nervous{
+  background-color: var(--black);
+}
+.nervous-mssg {
+  color: var(--red);
+  font-family: 'Who asks Satan', sans-serif;
+  font-size: 70px;
+  font-weight: normal;
+}
+img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+p.declaration {
+  margin-top: 20px;
+}
+.chill-btn{
+  background: transparent;
+  color: var(--off-white);
+  border: 3px solid var(--off-white);
+  border-radius: 50px;
+  padding: 0.5rem 0.8rem;
+  font: 18px "JetBrains-Mono", monospace;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  letter-spacing: 2px;
+}
+/* BUTON ROULETTE */
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+
+  .card-roulette {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: var(--off-white);
+    transition: .2s ease-in-out;
+    color: var(--black);
+    font-size: 12px;
+    padding: 15px;
+    font-family: 'JetBrains Mono';
+  }
+  
+  .card1 {
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-left: 15px;
+    text-align: right;
+  }
+  
+  
+  .card2 {
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    text-align: left;
+  }
+  
+  
+  .card3 {
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    outline: 1px dotted var(--red);
+    outline-offset: -4px;
+    text-align: right;
+    color: var(--red);
+    font-weight: bold;
+  }
+  
+  .card4 {
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    text-align: left;
+  }
+  
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: var(--purplegray);
+  }
+  
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: var(--yellow);
+  }
+    
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: var(--blue);
+  }
+    
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    color: var(--red);
+    background-color: var(--black);
+  }
+
+
+/* FOR REAL BUTTON */
+
+.for-real-btn {
+  margin-top: 150px;
+  font-family: inherit;
+  border: none;
+  outline: 1px dotted rgb(37, 37, 37);
+  outline-offset: -4px;
+  background: hsl(0deg 0% 75%);
+  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+.black-txt {
+  color: var(--black);
+}
+
+.for-real-btn:active {
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}

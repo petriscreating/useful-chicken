@@ -1,0 +1,101 @@
+:root {
+  --off-white: #fafafa;
+  --black: #070707;
+  --bittersweet: #FF6663;
+  --esmerald: #2CDA9D;
+  --purplegray: #8E8DBE;
+  --yellow: #FCEC52;
+  --blue: #5BC0EB;
+  --red: #ee0d0d;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('./static/fonts/JetBrainsMono-VariableFont_wght.ttf') format('truetype'),
+       url('./static/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neco';
+  src: url('./static/fonts/Neco-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Who Asks Satan';
+  src: url('./static/fonts/who-asks-satan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.nav {
+  background-color: transparent;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 30px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: var(--black);
+  cursor: pointer;
+}
+
+body:has(.section-bye) {
+  background-color: var(--bittersweet);
+}
+
+body:has(.section-nervous) {
+  background-color: var(--black);
+}
+body:has(.section-dark) {
+  background-color: var(--black);
+}
+
+body:has(.light-yellow) {
+  background-color: #fff9c0;
+}
+
+
+.section {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.section-dark {
+  background: var(--black);
+  color: var(--off-white);
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.url-txt{
+  color: #8276ff;
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
+}

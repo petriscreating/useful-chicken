@@ -1,0 +1,212 @@
+/* BUTONS ROW*/
+.section {
+  min-height: 100%;
+  overflow: auto;
+}
+.button-choice{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-choice.click-me{
+    height: 200px;
+}
+
+/* EMERGENCY BUTTON */
+.background-button {
+    background: repeating-linear-gradient(
+      45deg,
+      #3c2209 0 20px,
+      #ff9c00 20px 40px
+    );
+    width: 10em;
+    height: 10em;
+    -webkit-box-shadow: 15px 15px 50px 5px #5f5f5f;
+    box-shadow: 15px 15px 50px 5px #5f5f5f;
+    position: relative;
+    display: inline-block;
+    outline: 2px solid black;
+  }
+  
+  .background-button::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    background: #a0b8c4;
+    border: 2px solid #3c2209;
+  }
+  
+  .emg-button {
+    background: #cc2a1f;
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    position: absolute;
+    top: 7.5%;
+    left: 18.25%;
+    color: white;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-box-shadow: 0 15px 0 0 #842a2a;
+    box-shadow: 0 15px 0 0 #842a2a;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .emg-button:active {
+    -webkit-box-shadow: 0 1px 1px 1px #8C0606;
+    box-shadow: 0 1px 1px 1px #8C0606;
+    top: 15%;
+  }
+  
+  .background-button:has(.emg-button:active) + .emergency {
+    display: block;
+    -webkit-transform: rotate(0deg) scaleY(1);
+    -ms-transform: rotate(0deg) scaleY(1);
+    transform: rotate(0deg) scaleY(1);
+    -webkit-animation: anims 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: anims 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  @keyframes anims {
+    0% {
+      -webkit-transform: rotate(-30deg) scaleY(0.25);
+      transform: rotate(-30deg) scaleY(0.25);
+    }
+  
+    100% {
+      -webkit-transform: rotate(0deg) scaleY(1);
+      transform: rotate(0deg) scaleY(1);
+    }
+  }
+  
+  .emergency {
+    position: absolute;
+    display: none;
+  }
+
+/* PROCEED BUTTON */
+
+.proceed-button {
+    background: transparent;
+    color: var(--off-white);
+    border: 3px solid var(--off-white);
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font: 18px "JetBrains-Mono", monospace;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 2px;
+    animation: bounce_513 1s infinite;
+  }
+  .name {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 3rem;
+    padding-top: 4rem;
+    font: 500 14px "JetBrains-Mono", monospace;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  }
+  
+  .button-parrot .parrot {
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    animation: blink 0.8s infinite;
+    color: transparent;
+    --bg-color: #2c3e50
+  }
+  
+  .button-parrot .parrot:before {
+    content: "Click Me!";
+  }
+  
+  .button-parrot .parrot:nth-child(1) {
+    top: -30px;
+    left: -40px;
+    font: 12px/1 "Margarine", sans-serif;
+    transform: rotate(-20deg);
+    animation-duration: 0.5s;
+  }
+  
+  .button-parrot .parrot:nth-child(2) {
+    font: 12px/1 "Margarine", sans-serif;
+    right: -40px;
+    top: -20px;
+    transform: rotate(15deg);
+    animation-duration: 0.3s;
+  }
+  
+  .button-parrot .parrot:nth-child(3) {
+    font: 16px/1 "Margarine", sans-serif;
+    top: -60px;
+    left: 15px;
+    transform: rotate(10deg);
+    animation-duration: 1s;
+  }
+  
+  .button-parrot .parrot:nth-child(4) {
+    font: 18px/1 "Margarine", sans-serif;
+    top: -70px;
+    left: 95px;
+    transform: rotate(2deg);
+    animation-duration: 0.7s;
+  }
+  
+  .button-parrot .parrot:nth-child(5) {
+    font: 14px/1 "Margarine", sans-serif;
+    top: 80px;
+    left: 105px;
+    transform: rotate(-20deg);
+    animation-duration: 0.8s;
+  }
+  
+  .button-parrot .parrot:nth-child(6) {
+    font: 12px/1 "Margarine", sans-serif;
+    top: 80px;
+    left: 5px;
+    transform: rotate(10deg);
+    animation-duration: 1.2s;
+  }
+  
+  .button-parrot button:hover .parrot:before {
+    content: "Do it!";
+    width: 70px;
+  }
+  
+  @keyframes blink {
+    25%, 75% {
+      color: transparent;
+    }
+  
+    40%, 60% {
+      color: #fff;
+    }
+  }
+
+  @keyframes bounce_513 {
+    0%,
+      100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+  
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }

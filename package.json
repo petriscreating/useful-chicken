@@ -1,0 +1,53 @@
+{
+  "name": "useful-chicken",
+  "version": "0.1.0",
+  "homepage": "https://petriscreating.github.io/useful-chicken",  
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "bootstrap": "^5.2.3",
+    "cheer-me-up": "^1.0.1",
+    "knope": "^1.1.2",
+    "nicejob": "^1.0.1",
+    "random-words": "^1.3.0",
+    "randomcolor": "^0.6.2",
+    "react": "^16.6.0",
+    "react-bootstrap": "^2.7.2",
+    "react-canvas-paint": "^1.0.1",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^16.6.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.8.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.7.10",
+    "react-testimonial": "^1.0.0",
+    "react-use": "^17.4.0",
+    "serve": "^14.2.0",
+    "use-sound": "^4.0.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
