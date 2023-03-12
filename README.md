@@ -1,4 +1,4 @@
-# Pick-this-up
+# Useful chicken
 This is a simple React web app that makes use of different public APIs to display various types of data. 
 The app has no specific purpose, but is intended to showcase how different APIs can be used.
 

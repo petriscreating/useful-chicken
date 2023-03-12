@@ -1,7 +1,7 @@
 {
   "name": "useful-chicken",
   "version": "0.1.0",
-  "homepage": "https://petriscreating.github.io/useful-chicken",  
+  "homepage": "https://petriscreating.github.io/useful-chicken/",  
   "private": true,
   "engines": {
     "node": "18.x"
