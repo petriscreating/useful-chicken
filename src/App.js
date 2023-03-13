@@ -8,7 +8,7 @@ import OfficialHey from "./Components/Despedida/OfficialHey";
 import Canvas from "./Components/Canvas/Canva";
 import LetsTalk from "./Components/Canvas/LetsTalk";
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
-import { Routes, Route } from 'react-router-dom';
+import {  Route, HashRouter, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -17,15 +17,18 @@ class App extends Component {
       breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
       minBreakpoint="xxs"
       >
-        <Routes>
-          <Route path={"/"} element={<Home />} />
-          <Route path={"/who-am-I"} element={<ItsMe />} />
-          <Route path={"/bye"} element={<Bye />} />
-          <Route path={"/real-bye"} element={<OfficialBye />} />
-          <Route path={"/you-made-it"} element={<OfficialHey />} />
-          <Route path={"/but-first"} element={<LetsTalk />} />
-          <Route path={"/canvas"} element={<Canvas />} />
-        </Routes>
+      <HashRouter basename="/">
+        <Switch>
+            <Route path={"/"} element={<Home />} />
+            <Route path={"/who-am-I"} element={<ItsMe />} />
+            <Route path={"/bye"} element={<Bye />} />
+            <Route path={"/real-bye"} element={<OfficialBye />} />
+            <Route path={"/you-made-it"} element={<OfficialHey />} />
+            <Route path={"/but-first"} element={<LetsTalk />} />
+            <Route path={"/canvas"} element={<Canvas />} />
+        </Switch>
+      </HashRouter>
+
       </ThemeProvider>
     );
   }
