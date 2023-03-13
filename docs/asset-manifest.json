@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/useful-chicken/static/css/main.b34e9329.css",
+    "main.js": "/useful-chicken/static/js/main.7f8f3c50.js",
+    "static/js/845.6e6aca14.chunk.js": "/useful-chicken/static/js/845.6e6aca14.chunk.js",
+    "static/media/heroku.png": "/useful-chicken/static/media/heroku.ce3792c9a8dd5823b177.png",
+    "static/media/chicken-2.jpg": "/useful-chicken/static/media/chicken-2.586b3b30b73d95889f0e.jpg",
+    "static/media/do-it.mp3": "/useful-chicken/static/media/do-it.bc74d7e980b743914521.mp3",
+    "static/media/JetBrainsMono-Italic-VariableFont_wght.ttf": "/useful-chicken/static/media/JetBrainsMono-Italic-VariableFont_wght.41ea7ce5a94285e86a0b.ttf",
+    "static/media/JetBrainsMono-VariableFont_wght.ttf": "/useful-chicken/static/media/JetBrainsMono-VariableFont_wght.ebc33bd57e78956d75ad.ttf",
+    "static/media/lila.jpg": "/useful-chicken/static/media/lila.7d71d1eeec82e3716950.jpg",
+    "static/media/Neco-Regular.ttf": "/useful-chicken/static/media/Neco-Regular.3820459c5993ea5f731f.ttf",
+    "static/media/black.jpg": "/useful-chicken/static/media/black.8f0de72a2e2593122885.jpg",
+    "static/media/reina.jpg": "/useful-chicken/static/media/reina.9a57880c29e3f51a4411.jpg",
+    "static/media/who-asks-satan.ttf": "/useful-chicken/static/media/who-asks-satan.3993253149c9dbfc43df.ttf",
+    "static/media/old-man-crazy.jpg": "/useful-chicken/static/media/old-man-crazy.97c2b36a03e628da49cb.jpg",
+    "static/media/oldboy-.jpg": "/useful-chicken/static/media/oldboy-.5789198532eb1e15ad46.jpg",
+    "static/media/serbian.jpg": "/useful-chicken/static/media/serbian.a3be12d93c446f79a669.jpg",
+    "static/media/chat-gpt.jpg": "/useful-chicken/static/media/chat-gpt.700e036cd7d7c42850b9.jpg",
+    "static/media/quack.mp3": "/useful-chicken/static/media/quack.0f16af3b7bf7b53681d9.mp3",
+    "static/media/duck-u.jpg": "/useful-chicken/static/media/duck-u.5e3807d0cb00ffab6629.jpg",
+    "index.html": "/useful-chicken/index.html",
+    "main.b34e9329.css.map": "/useful-chicken/static/css/main.b34e9329.css.map",
+    "main.7f8f3c50.js.map": "/useful-chicken/static/js/main.7f8f3c50.js.map",
+    "845.6e6aca14.chunk.js.map": "/useful-chicken/static/js/845.6e6aca14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b34e9329.css",
+    "static/js/main.7f8f3c50.js"
+  ]
+}
