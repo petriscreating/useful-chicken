@@ -12,7 +12,7 @@ import {  BrowserRouter, Route, HashRouter, Routes, Link } from 'react-router-do
 class App extends Component {
   render() {
     return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div>
                   <Link to="/">Home</Link>
                   <Link to="/who-am-I">About</Link>
