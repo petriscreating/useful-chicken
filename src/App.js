@@ -7,7 +7,7 @@ import OfficialBye from "./Components/Despedida/OfficialBye";
 import OfficialHey from "./Components/Despedida/OfficialHey";
 import Canvas from "./Components/Canvas/Canva";
 import LetsTalk from "./Components/Canvas/LetsTalk";
-import {  BrowserRouter, Route, HashRouter, Routes } from 'react-router-dom';
+import {  BrowserRouter, Route, HashRouter, Routes, Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
