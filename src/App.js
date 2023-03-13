@@ -13,7 +13,16 @@ class App extends Component {
   render() {
     return (
     <BrowserRouter>
-        
+            <div>
+                  <Link to="/">Home</Link>
+                  <Link to="/who-am-I">About</Link>
+                  <Link to="/bye">Careers</Link>
+                  <Link to="/real-bye">Careers</Link>
+                  <Link to="/you-made-it">Careers</Link>
+                  <Link to="/but-first">Careers</Link>
+                  <Link to="/canvas">Careers</Link>
+            </div>
+
 
       <HashRouter basename="/">
         <Routes>
