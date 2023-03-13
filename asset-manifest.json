@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/useful-chicken/static/css/main.b34e9329.css",
-    "main.js": "/useful-chicken/static/js/main.4f85a181.js",
+    "main.js": "/useful-chicken/static/js/main.ed730a2f.js",
     "static/js/845.6e6aca14.chunk.js": "/useful-chicken/static/js/845.6e6aca14.chunk.js",
     "static/media/heroku.png": "/useful-chicken/static/media/heroku.ce3792c9a8dd5823b177.png",
     "static/media/chicken-2.jpg": "/useful-chicken/static/media/chicken-2.586b3b30b73d95889f0e.jpg",
@@ -21,11 +21,11 @@
     "static/media/duck-u.jpg": "/useful-chicken/static/media/duck-u.5e3807d0cb00ffab6629.jpg",
     "index.html": "/useful-chicken/index.html",
     "main.b34e9329.css.map": "/useful-chicken/static/css/main.b34e9329.css.map",
-    "main.4f85a181.js.map": "/useful-chicken/static/js/main.4f85a181.js.map",
+    "main.ed730a2f.js.map": "/useful-chicken/static/js/main.ed730a2f.js.map",
     "845.6e6aca14.chunk.js.map": "/useful-chicken/static/js/845.6e6aca14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b34e9329.css",
-    "static/js/main.4f85a181.js"
+    "static/js/main.ed730a2f.js"
   ]
 }
