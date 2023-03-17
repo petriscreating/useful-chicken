@@ -1,7 +1,6 @@
 {
   "name": "useful-chicken",
   "version": "0.1.0",
-  "homepage": "https://petriscreating.github.io/useful-chicken/",
   "private": true,
   "engines": {
     "node": "18.x"
@@ -29,8 +28,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
